@@ -1,6 +1,6 @@
 # Hypervisor Concealment for VM Anti-Detection
 
-Hiding the hypervisor is a critical step in making a virtual machine (VM) undetectable. Detection software—like anti-cheat or VM protection tools—often looks for hypervisor signatures in CPU features, vendor IDs, or system behavior. This guide details how the `qemu-anti-detection` project conceals the hypervisor (e.g., KVM in QEMU) to make your VM appear as a physical machine.
+Hiding the hypervisor is a critical step in making a virtual machine (VM) undetectable. Detection software, like anti-cheat or VM protection tools, often looks for hypervisor signatures in CPU features, vendor IDs, or system behavior. This guide details how the `qemu-anti-detection` project conceals the hypervisor (e.g., KVM in QEMU) to make your VM appear as a physical machine.
 
 ## Why Conceal the Hypervisor?
 
