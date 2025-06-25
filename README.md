@@ -30,7 +30,7 @@ After following this guide, we tested the VM with [Pafish](https://github.com/a0
 ![Pafish Screenshot 2](./screenshots/pafish2.jpg)
 ![Pafish Screenshot 3](./screenshots/pafish3.png)
 
-**Pafish detected only *one* trace**, an incredible result! This single trace (RDTSC timing VM exit) is notoriously hard to bypass, often requiring deep Linux kernel tweaks. Only a handful of experts have fully evaded it. This setup bypasses most malware and anti-cheat systems, making it a robust solution for stealthy VMs. Enjoy the stealth! 
+**Pafish detected only *two* traces**, an incredible result! These traces  (RDTSC timing VM exit adn timecount) are notoriously hard to bypass, often requiring deep Linux kernel tweaks. Only a handful of experts have fully evaded it. This setup bypasses most malware and anti-cheat systems, making it a robust solution for stealthy VMs. Enjoy the stealth! 
 
 ## Explore More
 
