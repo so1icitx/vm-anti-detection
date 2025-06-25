@@ -1,6 +1,6 @@
 # System Information Masking for VM Anti-Detection
 
-System information masking is crucial for making a virtual machine (VM) undetectable. Detection software often checks system-level data—like SMBIOS or ACPI tables—for signs of virtualization. This guide explains how the `qemu-anti-detection` project rewrites these data structures to mimic a physical machine, helping your VM evade detection.
+System information masking is crucial for making a virtual machine (VM) undetectable. Detection software often checks system-level data, like SMBIOS or ACPI tables, for signs of virtualization. This guide explains how the `qemu-anti-detection` project rewrites these data structures to mimic a physical machine, helping your VM evade detection.
 
 ## Why Mask System Information?
 
