@@ -4,7 +4,7 @@ Building a patched version of QEMU is the first step to creating an undetectable
 
 ## Why Patch QEMU?
 
-QEMU’s default setup exposes virtualization traces—like “QEMU” device names or hypervisor flags—that anti-cheat, malware, or protection software can detect. Patching QEMU lets you:
+QEMU’s default setup exposes virtualization traces, like “QEMU” device names or hypervisor flags, that anti-cheat, malware, or protection software can detect. Patching QEMU lets you:
 - Rename virtual hardware to mimic real devices.
 - Mask system info and hypervisor signatures.
 - Evade most detection methods.
