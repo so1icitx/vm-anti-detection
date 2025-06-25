@@ -1,2 +1,6 @@
 # vm-anti-detection
-a patch to bypass malware detection and analysis malware freely
+
+
+# PROOF
+**after following this guide here is the pafish output**
+[here](./screenshots/pafish1.png)
