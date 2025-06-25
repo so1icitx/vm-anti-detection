@@ -26,9 +26,9 @@ By masking VM traces, like “QEMU” device names, hypervisor flags, or timing 
 
 After following this guide, we tested the VM with [Pafish](https://github.com/a0rtega/pafish), a tool designed to detect virtual environments. The results speak for themselves:
 
-- [Screenshot 1](./screenshots/pafish1.png)
-- [Screenshot 2](./screenshots/pafish2.png)
-- [Screenshot 3](./screenshots/pafish3.png)
+![Pafish Screenshot 1](./screenshots/pafish1.png)
+![Pafish Screenshot 2](./screenshots/pafish2.png)
+![Pafish Screenshot 3](./screenshots/pafish3.png)
 
 **Pafish detected only *one* trace**, an incredible result! This single trace (RDTSC timing VM exit) is notoriously hard to bypass, often requiring deep Linux kernel tweaks. Only a handful of experts have fully evaded it. This setup bypasses most malware and anti-cheat systems, making it a robust solution for stealthy VMs. Enjoy the stealth! 
 
