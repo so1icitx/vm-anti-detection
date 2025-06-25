@@ -13,6 +13,7 @@ Together, these techniques address most detection vectors, though some limitatio
 
 ## 1. Device Name Modifications
 
+
 Many detection tools check hardware names for VM-specific strings like “QEMU” or “VMware.” This technique replaces those with realistic names to blend in.
 
 - **What It Does**:
