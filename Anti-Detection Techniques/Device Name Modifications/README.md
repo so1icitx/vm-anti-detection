@@ -1,6 +1,6 @@
 # Device Name Modifications for VM Anti-Detection
 
-Device name modifications are a key part of making a virtual machine (VM) undetectable. Many detection tools—like anti-cheat or VM protection software—check hardware names for signs of virtualization, such as “QEMU” or “VMware.” This guide explains how the `qemu-anti-detection` project renames virtual hardware to mimic real devices, helping your VM pass as a physical machine.
+Device name modifications are a key part of making a virtual machine (VM) undetectable. Many detection tools, like anti-cheat or VM protection software, check hardware names for signs of virtualization, such as “QEMU” or “VMware.” This guide explains how the `qemu-anti-detection` project renames virtual hardware to mimic real devices, helping your VM pass as a physical machine.
 
 ## Why Modify Device Names?
 
